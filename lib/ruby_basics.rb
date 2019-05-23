@@ -7,8 +7,8 @@ def assign_variable(value)
 end
 assign_variable("Bob")
 
-def argue(phrase)
-  phrase = "I'm right and you are wrong!"
+def argue(argument)
+  argument
 end
 
 def greeting(greeting, name)
@@ -18,16 +18,15 @@ end
 puts greeting("Hi there, ", "Bobby!")
 
 
-def return_a_value(return_a_value)
-  return_a_value = "Nice"
+def return_a_value
+  "Nice"
 end
 
-def last_evaluated_value(language)
-language = "expert"
+def last_evaluated_value
+  "beginner"
+  "expert"
 end
-last_evaluated_value("expert")
 
-def pizza_party(topping="cheese", "pepperoni")
-  puts "#{topping}"
+def pizza_party(a="cheese")
+  a
 end
-pizza_party("pepperoni")
